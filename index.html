@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Acá pondre los datos de mi pagina  -->
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="msapplication-tap-highlight" content="no">
+
+<!-- Acá el titulo -->
+<title>GRAFITECA</title> 
+
+
+<!-- Acá se busco una hoja de estilos y fuentes -->
+<link href="./estilos.css" rel="stylesheet">
+
+</head>
+
+
+<!-- Iniciamos con el cuerpo -->
+<body>
+
+<!-- Acá contenedores de el cuerpo del index -->
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+
+
+<!-- Acá añadimos el contenido del header y ponemos en el menu el directorio de las paginas a visualizarEstrategia corporativaEstrategia corporativa -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Inicio</a></li>
+          <li><a href="./Estrategia corporativa.html" title="">02 : Estrategia</a></li>
+          <li><a href="./about.html" title="">03 : Productos</a></li>
+          <li><a href="./contact.html" title="">04 : Contactos</a></li>
+          
+        </ul>
+
+
+      </div> 
+    </div>
+  </nav>    
+</header>
+
+<!-- Acá en el cuerpo de la bienvenida contenedores con el fin de mostrar un mensaje y asociamos una funcion javascript para hacer dinamico el mensaje  -->
+ 
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/fondo-general.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>Bienvenidos,
+                <br>
+                <span id="typed-strings">
+                  <span>Grafiteca</span>
+                  <span>Hecho por: Ronaldo Duarte</span>
+                  <span>Informatica y Convergencia</span>
+                  <span>Corporación Unificada Nacional de Educación Superior</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>
